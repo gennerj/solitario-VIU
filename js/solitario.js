@@ -178,6 +178,8 @@ function setContador(contador, valor) {
 function reiniciarJuego() {
   segundos = 0;
   arrancarTiempo();
+  cargarTapeteInicial();
+  incContador();
 }
 
 function moverCartas(cartaSeleccionada, mazo, tapeteCarta, tapeteNuevo) {
